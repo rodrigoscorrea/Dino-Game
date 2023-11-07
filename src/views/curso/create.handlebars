@@ -1,0 +1,44 @@
+<h2>Criação de Curso</h2>
+
+<form method="post" action="/curso/create">
+<div class="form-group">
+    <label class="col-form-label mt-4" for="sigla">Sigla</label>
+    <input type="text" class="form-control" placeholder="Informe a sigla do curso" id="sigla" name="sigla">
+</div>
+
+
+<div class="form-group">
+    <label class="col-form-label mt-4" for="nome">Nome do curso</label>
+    <input type="text" class="form-control" placeholder="Informe o nome do curso" id="nome" name="nome">
+</div>
+
+<div class="form-group">
+    <label for="descricao" class="form-label mt-4">Descrição</label>
+    <textarea class="form-control" name="descricao" id="descricao" rows="3"></textarea>
+</div>
+
+<fieldset class="form-group">
+    <legend class="mt-4">Áreas de conhecimento</legend>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="areaId" id="areaId1" value="1">
+        <label class="form-check-label" for="areaId1">
+        Ciências Exatas
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="areaId" id="areaId2" value="2">
+        <label class="form-check-label" for="areaId2">
+        Ciências Humanas
+        </label>
+    </div>
+    <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="areaId" id="areaId3" value="3">
+        <label class="form-check-label" for="areaId3">
+        Ciências Biológicas
+        </label>
+    </div>
+</fieldset>
+
+<input type="submit" value = "Enviar" class="btn btn-primary mt-4 p-1" id="btnEnviar"/>
+
+</form>

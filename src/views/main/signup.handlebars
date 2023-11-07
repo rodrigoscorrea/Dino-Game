@@ -1,0 +1,29 @@
+<h2>Cadastro de Usuário</h2>
+<form action="/signup" method="post">
+
+    <div class="form-group">
+        <label class="col-form-label mt-4" for="inputDefault">Nome Completo</label>
+        <input type="text" class="form-control" placeholder="Digite seu nome" id="nome" name="nome">
+    </div>
+
+    <div class="form-group">
+        <label class="col-form-label mt-4" for="email">E-mail</label>
+        <input type="text" class="form-control" placeholder="Digite seu email" id="email" name="email">
+    </div>
+
+    <div class="form-group">
+        <label for="cursoId" class="form-label mt-4">Selecione seu Curso:</label>
+        <select class="form-select" id="cursoId" name = "cursoId">
+            {{#each cursos}}
+            <option value="{{id}}">{{nome}}</option>
+            {{/each}}
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="senha" class="form-label mt-4">Escolha uma senha de acesso</label>
+        <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite sua senha" autocomplete="off">
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-4">Criar Conta</button>
+</form>

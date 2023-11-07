@@ -1,0 +1,93 @@
+body{
+  margin-left: -10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.deserto {
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+}
+
+.chao {
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  bottom: 0px;
+  background-position-y: -78px;
+  width: 1831px;
+  height: 20px;
+  z-index: 2;
+}
+
+.dino {
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  left: 20px;
+  z-index: 3;
+ 
+}
+
+.nuvem {
+  background-image: url(../img/sprite.png);
+  background-position: -125px -2px;
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  z-index: 2;
+}
+
+.cactus{
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  z-index: 3;
+ 
+}
+
+.bird{
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  z-index: 3;
+}
+
+.btnRestart{
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  z-index: 4;
+}
+
+.gameOver{
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  z-index: 3;
+}
+
+.score{
+  width: 90px;
+  height: 18px;
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  margin-top: -265px;
+  margin-right: -920px;
+  font-weight: bold;
+}
+
+.identificacao{
+  margin-top: 6vh;
+  margin-left: 20vw;
+}
+.containerApresentacao{
+  margin-top:15px;
+  margin-left: 20vw;
+  font-size: 18px;
+}
+
+.apresentacao{
+  font-size: 20px;
+}

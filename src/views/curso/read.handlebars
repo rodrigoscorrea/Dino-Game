@@ -1,0 +1,8 @@
+<div class="card border-primary mb-3" style="max-width: 20rem;">
+    <div class="card-header" style="display:flex; flex-wrap:nowrap" >{{curso.nome}}<a href="/curso/update/{{curso.id}}"><i class="fa-solid fa-pen-to-square" style="margin-left: 1rem; margin-right:1rem;"></i></a><form method="post" action="/curso/remove/{{curso.id}}" style="background-color:rgba(248,248,248,0.03);"><button type="submit" style="border:none;"><i class="fa-solid fa-trash" style="color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));"></i></button></form></div>
+    <div class="card-body">
+        <p class="card-text">Sigla: {{curso.sigla}}</p>
+        <p class="card-text">Descrição: {{curso.descricao}}</p>
+        <p class="card-text">Area: {{curso.Area.nome}}</p>
+    </div>
+</div>

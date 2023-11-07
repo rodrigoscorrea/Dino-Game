@@ -1,0 +1,22 @@
+
+img {
+    margin-top: 2em;
+    max-width: 200px;   
+    max-height: 150px;  
+    margin-right: 2rem; 
+    margin-bottom: 2em;
+}
+
+.containerIndex{
+    margin-left: 4em;
+}
+
+.participantes{
+    list-style: none;
+    margin-left: -2em;
+}
+
+.imgParticipantes {
+    box-sizing: border-box; 
+    border-radius: 20px;
+}
