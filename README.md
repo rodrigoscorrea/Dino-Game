@@ -38,6 +38,11 @@ R: Não precisa
 2. Preciso estar logado para realizar o CRUD de cursos?
    R: Não precisa
 
+# Últimas observações
+
+Por se tratar de um trabalho didático, certos arquivos que normalmente não são versionados, tais como jsons de configuração, se encontram no repositório
+Os únicos arquivos que não estão inclusos são aqueles que possuiam dados de acesso pessoais a DB e a pasta node_modules
+
 4. Como consigo acessar o meu perfil de usuário na aplicação?
    R: Essa parte não foi implementada, mas seria o ideal
 
