@@ -36,9 +36,9 @@ Além da correção dos problemas já conhecidos, algumas coisas ainda devem ser
 R: Não precisa
 
 2. Preciso estar logado para realizar o CRUD de cursos?
-R: Não precisa
+   R: Não precisa
 
-3. Como consigo acessar o meu perfil de usuário na aplicação?
-R: Essa parte não foi implementada, mas seria o ideal
+4. Como consigo acessar o meu perfil de usuário na aplicação?
+   R: Essa parte não foi implementada, mas seria o ideal
 
 
