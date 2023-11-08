@@ -1,8 +1,8 @@
 # Dino-Game
-O projeto se trata de uma aplicação web onde o usuário pode jogar o Dino TRex Runner, similar ao aquele da Google
-. Essa aplicação serve como uma demonstração de diversas tecnologias, aplicadas no conceito de MVC (Model - View - Control)
-. Dessa forma, o usuário pode se cadastrar/logar no sistema, bem como adicionar um curso na aba "cursos" e se informar melhor na seção "sobre"
-. Para a parte de Cursos, é possível realizar um CRUD completo
+O projeto se trata de uma aplicação web onde o usuário pode jogar o Dino TRex Runner, similar ao aquele da Google. 
+Essa aplicação serve como uma demonstração de diversas tecnologias, aplicadas no conceito de MVC (Model - View - Control).
+Dessa forma, o usuário pode se cadastrar/logar no sistema, bem como adicionar um curso na aba "cursos" e se informar melhor na seção "sobre".
+Para a parte de Cursos, é possível realizar um CRUD completo
 
 # Tecnologias usadas
 - Framework Express.js
@@ -42,8 +42,8 @@ Além da correção dos problemas já conhecidos, algumas coisas ainda devem ser
    R: Essa parte não foi implementada, mas seria o ideal
 # Últimas observações
 
-Por se tratar de um trabalho didático, certos arquivos que normalmente não são versionados, tais como jsons de configuração, se encontram no repositório
-. Os únicos arquivos que não estão inclusos são aqueles que possuiam dados de acesso pessoais a DB e a pasta node_modules
+Por se tratar de um trabalho didático, certos arquivos que normalmente não são versionados, tais como jsons de configuração, se encontram no repositório.
+Os únicos arquivos que não estão inclusos são aqueles que possuiam dados de acesso pessoais a DB e a pasta node_modules
 
 
 
