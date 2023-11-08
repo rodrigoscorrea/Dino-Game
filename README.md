@@ -34,7 +34,7 @@ Além da correção dos problemas já conhecidos, algumas coisas ainda devem ser
 # Perguntas pertinentes
 1. Preciso estar logado para jogar o TRex Runner?
    
-R: Não precisa
+  R: Não precisa
 
 3. Preciso estar logado para realizar o CRUD de cursos?
    
