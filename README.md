@@ -33,14 +33,12 @@ Além da correção dos problemas já conhecidos, algumas coisas ainda devem ser
 
 # Perguntas pertinentes
 1. Preciso estar logado para jogar o TRex Runner?
-   
-  R: Não precisa
-
-3. Preciso estar logado para realizar o CRUD de cursos?
-   
    R: Não precisa
-4. Como consigo acessar o meu perfil de usuário na aplicação?
+
+2. Preciso estar logado para realizar o CRUD de cursos?
+   R: Não precisa
    
+3. Como consigo acessar o meu perfil de usuário na aplicação?
    R: Essa parte não foi implementada, mas seria o ideal
 # Últimas observações
 
